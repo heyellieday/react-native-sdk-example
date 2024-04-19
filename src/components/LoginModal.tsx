@@ -68,10 +68,10 @@ export const LoginModal = ({isOpen, onClose}: LoginModalProps) => {
       setIsLoading(true);
 
       // Verify the users email code and initiate account creation
-      const biometricsId = await capsule.verifyEmailBiometricsId(
-        verificationCode,
-      );
-      await capsule.registerPasskey(email, biometricsId);
+      const biometricsId = await capsule.verifyEmail(verificationCode);
+      const userHandle = new Uint8Array(16);
+      crypto.getRandomValues(userHandle);
+      await capsule.registerPasskey(email, biometricsId, userHandle);
 
       Toast.show({
         type: 'success',
