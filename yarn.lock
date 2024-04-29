@@ -2651,10 +2651,22 @@
   resolved "https://registry.npmjs.org/@ungap/structured-clone/-/structured-clone-1.2.0.tgz"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@usecapsule/core-sdk@1.7.0-dev.3":
-  version "1.7.0-dev.3"
-  resolved "https://registry.yarnpkg.com/@usecapsule/core-sdk/-/core-sdk-1.7.0-dev.3.tgz#d840e5a37b6a5da19d4f4f0367c30c1c0d602950"
-  integrity sha512-f8jnzg1cxg0RnD2SLP0WUan7v0s9R6PMD/5rQ+adwh4c9ZpmSWLYKDVWJadJphVoX4FUGTp3nohFqd+TwIOgfA==
+"@usecapsule/core-sdk@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@usecapsule/core-sdk/-/core-sdk-1.6.0.tgz#0572194625eceb4c33275c507b8fe99d6a9fb6b9"
+  integrity sha512-QqLFFmCtS8Ndl4T+CwRSl+ul4BWe8GJB4ve03cOisi7J8rduCIjNrzdSOU2nLf6tjAQtWLBERSLgNzp4XVcO/w==
+  dependencies:
+    "@celo/utils" "^3.2.0"
+    "@usecapsule/user-management-client" "1.4.0"
+    base64url "^3.0.1"
+    buffer "6.0.3"
+    ethereumjs-util "7.1.5"
+    node-forge "^1.3.1"
+
+"@usecapsule/core-sdk@1.6.1-dev.3":
+  version "1.6.1-dev.3"
+  resolved "https://registry.yarnpkg.com/@usecapsule/core-sdk/-/core-sdk-1.6.1-dev.3.tgz#12e1a2140b5ba5f6e92406ac944410e3af729027"
+  integrity sha512-Xwcr0lcBLGFQv8oqMsiB1TLW9BfNQNzOD+YOnAB8n7QQaRkna0uzNgKoecfxacOfqRffLTxAl8MVkalxIlbMMQ==
   dependencies:
     "@celo/utils" "^3.2.0"
     "@usecapsule/user-management-client" "1.4.0"
@@ -2668,10 +2680,10 @@
   resolved "https://registry.npmjs.org/@usecapsule/react-native-passkey/-/react-native-passkey-2.1.3.tgz"
   integrity sha512-bl1Ba8xCUhwOS8D7gpFE9pmBQ/Wvmes1R71e5PaA75bqyhvB3ScWJ7v13Q+pK7yQaw8Jc5GnQ1XrAI2SSBwb0g==
 
-"@usecapsule/react-native-wallet@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@usecapsule/react-native-wallet/-/react-native-wallet-1.0.4.tgz#99225eff389993815c94ccfef4a5eba39adc793e"
-  integrity sha512-Kzz59soIYgZmujM2oe67oTmYIizNDj9aFpESCFgbT1HwfLg+bXKtuZBXE15OaksJp7A8HXmeNGXGY5XH1IYLFQ==
+"@usecapsule/react-native-wallet@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@usecapsule/react-native-wallet/-/react-native-wallet-1.0.5.tgz#fbc6662df2db70453d3d845e32770f5121ec8f2c"
+  integrity sha512-EogIUfKTQ5TP/ZE2SVKtpw1un1Bw0FiqLyDm50aeoLehpeVDxoRFiaPFOXBH/vRDfLopPQx/3cSKPIZpbiX1HQ==
   dependencies:
     "@celo/base" "1.2.0"
     "@celo/client" "0.0.355"
@@ -2680,11 +2692,12 @@
     "@celo/wallet-base" "1.2.0"
     "@celo/wallet-remote" "^1.2.0"
     "@react-native-async-storage/async-storage" "^1.15.14"
+    "@usecapsule/core-sdk" "1.6.1-dev.3"
     "@usecapsule/react-native-passkey" "2.1.3"
     "@usecapsule/user-management-client" "1.4.0"
-    "@usecapsule/viem-v1-integration" "1.7.0-dev.3"
-    "@usecapsule/viem-v2-integration" "1.6.0-dev.3"
-    "@usecapsule/web-sdk" "1.8.0-dev.3"
+    "@usecapsule/viem-v1-integration" "1.6.0"
+    "@usecapsule/viem-v2-integration" "1.4.0"
+    "@usecapsule/web-sdk" "1.6.2-dev.3"
     axios "^0.27.2"
     base64url "^3.0.1"
     crypto-js "^3.1.9-1"
@@ -2711,27 +2724,28 @@
     axios "^1.6.3"
     qs "^6.12.0"
 
-"@usecapsule/viem-v1-integration@1.7.0-dev.3":
-  version "1.7.0-dev.3"
-  resolved "https://registry.yarnpkg.com/@usecapsule/viem-v1-integration/-/viem-v1-integration-1.7.0-dev.3.tgz#654e41c08faa6012c7adea19a22791c5939cf18c"
-  integrity sha512-BXZekTlaNEQvs/lNp6kfiZxuaGuffsorupXEKZCEyqSuZzMFbftNNzIYLukx6yev/eGdudNCBVu1t+rQhqW85w==
+"@usecapsule/viem-v1-integration@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@usecapsule/viem-v1-integration/-/viem-v1-integration-1.6.0.tgz#b007fca85001e9a1ea4d0c244a411dece54dce6c"
+  integrity sha512-FwQGjHXovluNn/qQhRPT0ToDYJQZ1kDjUp9yTFhp7hKzp8zq9IB/G5hKMvorei/fWpWPKh9CExEgvPL4gv3pQg==
   dependencies:
-    "@usecapsule/core-sdk" "1.7.0-dev.3"
+    "@usecapsule/core-sdk" "1.6.0"
     viem "^1.5.3"
 
-"@usecapsule/viem-v2-integration@1.6.0-dev.3":
-  version "1.6.0-dev.3"
-  resolved "https://registry.yarnpkg.com/@usecapsule/viem-v2-integration/-/viem-v2-integration-1.6.0-dev.3.tgz#48323910bcfeb3c4991e08486d87fb47d7b777a3"
-  integrity sha512-86GWk4r09oRRqObb5eamktNbk7ZHhgSNkYRsuzXt8TyZLg68gvoM5ebH4dY8k0a+4VlnJDgOiaO9cK3sBzVaqQ==
+"@usecapsule/viem-v2-integration@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@usecapsule/viem-v2-integration/-/viem-v2-integration-1.4.0.tgz#3ddd459b498cbb4c4819b39f50c6674af1a0ae41"
+  integrity sha512-/JF0ZIAS2KdMw3q0S4bxNnIYA52Bypj7q6xZtBJ45S2QnHzmNFbg5USVYRKamkVmjXizXldAMPiQrNHk1jc81g==
   dependencies:
-    "@usecapsule/core-sdk" "1.7.0-dev.3"
+    "@usecapsule/core-sdk" "1.6.0"
+    viem "^2.7.15"
 
-"@usecapsule/web-sdk@1.8.0-dev.3":
-  version "1.8.0-dev.3"
-  resolved "https://registry.yarnpkg.com/@usecapsule/web-sdk/-/web-sdk-1.8.0-dev.3.tgz#755e9e802106e5a1fc22dae1679386c969894a11"
-  integrity sha512-bPxccnohf7W48zNks/xvQQLvvutj3Cjy5spre7ens1isS2cnjgjnuiUXxn6unkYgD8H3Blsyg8a9Q71xT2WSZQ==
+"@usecapsule/web-sdk@1.6.2-dev.3":
+  version "1.6.2-dev.3"
+  resolved "https://registry.yarnpkg.com/@usecapsule/web-sdk/-/web-sdk-1.6.2-dev.3.tgz#597e0264529f578cc0cffe3d3ede3cd2e7b49291"
+  integrity sha512-LUCrLOJOR8Avku/yM/zBlbQxp6nBUNcRzzksYu36agNk4pc2RQfeAaB1AhdtspOaVGy9iJqpK4KlWUgwtUOr0w==
   dependencies:
-    "@usecapsule/core-sdk" "1.7.0-dev.3"
+    "@usecapsule/core-sdk" "1.6.1-dev.3"
     "@usecapsule/user-management-client" "1.4.0"
     assert "^2.1.0"
     base64url "3.0.1"
@@ -2743,6 +2757,11 @@ abitype@0.9.8:
   version "0.9.8"
   resolved "https://registry.npmjs.org/abitype/-/abitype-0.9.8.tgz"
   integrity sha512-puLifILdm+8sjyss4S+fsUN09obiT1g2YW6CtcQF+QDzxR0euzgEB29MZujC6zMk2a6SVmtttq1fc6+YFA7WYQ==
+
+abitype@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/abitype/-/abitype-1.0.0.tgz#237176dace81d90d018bebf3a45cb42f2a2d9e97"
+  integrity sha512-NMeMah//6bJ56H5XRj8QCV4AwuW6hB6zqz2LnhhLdcWVQOsXki6/Pn3APeqxCma62nXIcmZWdu1DlHWS74umVQ==
 
 abort-controller@^3.0.0:
   version "3.0.0"
@@ -8671,6 +8690,20 @@ viem@^1.5.3:
     "@scure/bip32" "1.3.2"
     "@scure/bip39" "1.2.1"
     abitype "0.9.8"
+    isows "1.0.3"
+    ws "8.13.0"
+
+viem@^2.7.15:
+  version "2.9.23"
+  resolved "https://registry.yarnpkg.com/viem/-/viem-2.9.23.tgz#43a286779bc68b974794e3673175734b92d5db3b"
+  integrity sha512-KolNI8H8tNkOA6xkC5UnlQjoorJxk4F1F9h42pHnH9/CtrWG9Ka4xmAWwhO2xKNPA2sNsAsJLmedBsz2uvaQow==
+  dependencies:
+    "@adraffy/ens-normalize" "1.10.0"
+    "@noble/curves" "1.2.0"
+    "@noble/hashes" "1.3.2"
+    "@scure/bip32" "1.3.2"
+    "@scure/bip39" "1.2.1"
+    abitype "1.0.0"
     isows "1.0.3"
     ws "8.13.0"
 
